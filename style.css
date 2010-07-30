@@ -1,0 +1,202 @@
+/*  
+Theme Name: Axente Sever Promo 2007
+Theme URI: http://e-Stas.Net/
+Description: Tema principala a promotiei 2007 de la Liceul Axente Sever
+Version: v.1
+Author: Stanislav Sushkov
+Author URI: http://e-Stas.Net/
+
+*/
+
+html, body {
+	background: url("img/fundal.png") top left;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	font-size: 11px;
+	font-family: "Arial", Verdana, serif;
+	color: #096e03;
+}
+
+img {
+	border: none;
+}
+
+a {
+	color: #096e03;
+	text-decoration: none;
+	border-bottom: 1px dotted #096e03;
+}
+
+a:hover, a:visited {
+	color: #096e03;
+	text-decoration: none;
+	border-bottom: 1px solid #096e03;
+	
+}
+
+#pagina {
+	background: url("img/pagina.png") top repeat-y;
+	width: 730px;
+	margin: 0 auto;
+	position: relative;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+}
+
+#pagina .logo {
+	padding-left: 50px;
+	padding-top: 30px;
+	text-decoration: none;
+	border: none;
+}
+
+#logo2007 {
+	width: 82px;
+	height: 127px;
+	background: url("img/2007.png") top no-repeat;
+	margin-left: 20px;
+	display: block;
+	float: left;
+}
+
+#badge {
+	background: url("img/badge.png");
+	height: 191px;
+	width: 190px;
+	display: block;
+	float:right;
+	position: relative;
+	top: -130px;
+	right: -40px;
+	cursor: pointer;
+	margin-bottom: -150px;
+}
+
+#cautare {
+	width: 700px;
+	margin: 0 auto;
+	clear: both;
+}
+
+#s {
+	width: 470px;
+	height: 40px;
+	border: 1px solid #eee;
+	border-left: 7px solid #eee;
+	vertical-align: top;
+	font-size: 30px;
+	padding: 2px;
+	padding-left: 11px;
+	color: #c0c0c0;
+	margin-left: 10px;
+}
+
+#s:hover {
+	border: 1px solid #c0c0c0;
+	border-left: 7px solid #c0c0c0;
+	color: #acacac;
+	background: url("img/s.png") left no-repeat;
+}
+
+#searchsubmit {
+	width: 180px;
+	height: 46px;
+	border: none;
+	background: url("img/cauta.png") top left no-repeat;
+	cursor: pointer;
+	margin-left: 10px;
+}
+
+#searchsubmit:hover {
+	background: url("img/cauta_.png") top left no-repeat;
+}
+
+#continut {
+	clear: both;
+	margin: 0 20px;
+}
+
+#continut small {
+	float: right;
+}
+
+#continut .text {
+	margin-top: 50px;
+}
+
+#continut .text {
+	background: url("img/text.jpg") bottom right no-repeat;
+	height: 300px;
+	margin-bottom: 20px;
+	font-size: 14px;
+}
+
+#continut .text li {
+	list-style: square;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#continut h3 {
+	font-size: 16px;
+	line-height: 15px;
+	font-family:"Trebuchet MS";
+	letter-spacing: -1px;
+
+}
+
+#continut h1 {
+	width: 100%;
+	font-size: 30px;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-bottom: -10px;
+	display: block;
+}
+
+#continut h2 {
+	font-size: 30px;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-bottom: -10px;
+	display: block;
+}
+
+#continut .titlu {
+	margin-left: 260px;
+}
+
+#continut  img {
+	border: none;
+	margin: 5px;
+	display: block;
+}
+
+#continut .swfir *{
+	
+	float: left;
+}
+
+#pagina .spatiu {
+	height: 50px;
+	width: 100%;
+}
+
+#nota {
+	height: 33px;
+	width: 100%;
+	position: relative;
+	bottom: -1px;
+	background: url("img/nota.png") top left  scroll repeat-x;
+	text-align: center;
+	font-size: 10px;
+	z-index: 1;
+	margin-top: -34px;
+}
+
+#nota p {
+	margin: 0;
+	padding-top: 5px;
+}

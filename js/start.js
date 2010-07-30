@@ -8,12 +8,12 @@
 			sir.specify("rotate","-5");
 			sir.specify("shadow-blur", "10");
 			sir.specify("background-color", "fff");
-			sir.specify('src', '/2007/wp-content/themes/axs.promo/js/swifr/swfir.swf');
+			sir.specify('src', '/wp-content/themes/axs.promo/js/swifr/swfir.swf');
 			sir.swap("#continut img");
 		}
 		
 		var euphorig = {
-		    src: '/2007/wp-content/themes/axs.promo/js/sifr/font.swf'
+		    src: '/wp-content/themes/axs.promo/js/sifr/font.swf'
 		  };
 
 		  sIFR.debugMode = true;
@@ -23,7 +23,7 @@
 		  
 		  sIFR.replace({
 		    selector: 'h2'
-		    ,src: '/2007/wp-content/themes/axs.promo/js/sifr/font.swf'
+		    ,src: '/wp-content/themes/axs.promo/js/sifr/font.swf'
 		    ,wmode: 'transparent'
 		    ,css: {
 		      '.sIFR-root': { 'color': '#096e03', 'letter-spacing': -1.5, 'text-transform': 'capitalize', 'font-size': '40px' }
@@ -43,7 +43,7 @@
 		  
 		sIFR.replace({
 		    selector: 'h1'
-		    ,src: '/2007/wp-content/themes/axs.promo/js/sifr/font.swf'
+		    ,src: '/wp-content/themes/axs.promo/js/sifr/font.swf'
 		    ,wmode: 'transparent'
 		    ,css: {
 		      '.sIFR-root': { 'color': '#096e03', 'letter-spacing': -1.5, 'font-size': '50px' }
